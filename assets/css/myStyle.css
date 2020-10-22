@@ -134,6 +134,7 @@
   .footer .title {
       font-weight: bold;
       text-align: center;
+      text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.7);
   }
 
   .footer a {
