@@ -169,16 +169,16 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             We made software application (software made available without license fees for usage but that requires fees for maintenance and support).
-            
+
                                                             A generic data collection tool that allows you to collect and submit geo tagged data forms (along with photos) to a central project website (hosted using Google App Engine) from suitable mobile phones (Android or iPhone) and Laptop.For example, questionnaires, audit inspections, technical site survey form etc. all data synchronized (i.e. a copy sent from laptop) and pictures from multiple smart phones can then be viewed / charted / filtered at the project website using Google Maps / Earth or downloaded survey results in the form of PDF or CSV.
                                                         </div>
                                                         <div class="col">
                                                             Furthermore, data can be requested and viewed/filtered from the project website directly on your smart phone.
-            
+
                                                             Geo tagging Survey integrates media collection into its forms, allowing you or your employees to capture photographs, barcodes and more using the camera built in to your mobile device. Because the images are automatically attached to the survey, there’s no confusion when it comes to linking up your media and your inspection form data.
                                                         </div>
                                                     </div>
-                                                </div>                                                
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -201,7 +201,7 @@
                                                             MPColla is a web server that keep your team on the same page, keep your project on schedule with task delegation and manage task time to your team. At the same time, Survey Project tracking will be presented in Chat group, summary, charts or graphics for its respected status. Those two combination tools resided on two different server will bring team collaboration – efficiently work together with your team to deliver top notch results.
                                                         </div>
                                                     </div>
-                                                </div>                                                
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -228,8 +228,32 @@
         </div>
     </div>
 
+    <!-- Footer -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col col-lg-8" style{background-color:black;}>
+                <h5>Dev's</h5>
+                <p>Our speciality in content management, big data analysis and tools for anykind of purpose.</p>
 
-
+            </div>
+            <div class="col col-lg-2">
+                <h5>Socials</h5>
+                <ul>
+                    <li><a href="#!">Facebook</a></li>
+                    <li><a href="#!">Instagram</a></li>
+                    <li><a href="#!">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-md-10">
+                <p>YSr &copy 2020</p>
+            </div>
+            <div class="col col-md-2">
+                <a href="">Go to Top</a>
+            </div>
+        </div>
+    </div>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
