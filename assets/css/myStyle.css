@@ -100,6 +100,14 @@
 .tab-services .card-block{
     padding : 3px 3px;
 }
+.card-header {
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+}
+.card-header a {
+    color : white;
+    font-weight: bold;
+}
 
 /* Others */
 .sub-title {
@@ -120,6 +128,11 @@
     background:
       repeating-linear-gradient(to right,rgb(190, 190, 190) 0,rgb(190,190,190) 5px,transparent 5px,transparent 7px)
       /*5px red then 2px transparent -> repeat this!*/
+  }
+
+  .icons {
+      text-align: center;
+      color:grey;
   }
 
   .footer {

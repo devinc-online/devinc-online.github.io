@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Dev Inc</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Ranchers&display=swap" rel="stylesheet">
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="assets/css/myStyle.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dev Inc</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="btn btn-primary tombol" href="#">Join Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Working <span style="color:red">efficiently</span><br /> and <span style="color:red">fast</span> with us</h1>
+            <p class="lead">We are commiting with schedule</p>
+            <a href="" class="btn btn-danger btn-lg tombol"><b>Our Work</b></a>
+        </div>
+    </div>
+
+    <!-- Container Content -->
+    <div class="container">
+        <!-- Info Panel -->
+        <div class="row justify-content-center">
+            <div class="col-10 info-panel">
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="assets/images/info-panel/24hour-call-center.png" class="float-left">
+                        <h5>24/7</h5>
+                        <p>ready in anytime needed</p>
+                    </div>
+                    <div class="col-lg">
+                        <img src="assets/images/info-panel/report.png" class="float-left">
+                        <h5>Full Report</h5>
+                        <p>using tools to speed up the process</p>
+                    </div>
+                    <div class="col-lg">
+                        <img src="assets/images/info-panel/personel.png" class="float-left">
+                        <h5>Fresh Resources</h5>
+                        <p>Always provide fresh human resources</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horizontal Panel - First row -->
+        <div class="container hz-panel">
+            <p class="sub-title mt-5">WHAT WE DO</p>
+            <div class="dashline"></div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card mb-3 mt-5" style="max-width: 540px;">
+                        <div class="row no-gutters card-desc">
+                            <div class="col-md-4">
+                                <img src="assets/images/horizontal-card/soa.png" class="card-img">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">What we do</h5>
+                                    <p class="card-text">We doing a survey and collecting data that will be analized to become readable data for a decision maker</p>
+                                    <p class="card-text"><small class="text-muted">#whatwedo</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <div class="prg-title">ON GOING PROJECT PROGRESS
+                        <hr>
+                    </div>
+                    <p class="mt-2"><a href="/gradebook">Gradebook</a></p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="mt-2">Point of Sales</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horixontal Panel - Second row -->
+        <div class="container hz-panel">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group card-desc">
+                        <li class="list-group-item lg-title">Kind of Apps : </li>
+                        <li class="list-group-item list-group-item-warning"> * Finance</li>
+                        <li class="list-group-item list-group-item-info"> * eCommerce</li>
+                        <li class="list-group-item list-group-item-danger"> * Telcom</li>
+                        <li class="list-group-item list-group-item-success"> * Education</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3 ml-auto" style="max-width: 540px;">
+                        <div class="row no-gutters card-desc">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Service Oriented Architecture</h5>
+                                    <p class="card-text">The desired level of enterprise agility can not be achieved with conventional approaches to software architectures, such as proprietary integrated software suites. SOA enables business process automation logic to go from being hardcoded in software packages to being declared and easily changed statements within service platform.</p>
+                                    <p class="card-text"><small class="text-muted">#soa</small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/images/horizontal-card/whatwedo.png" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services -->
+    <div class="container tab-services">
+        <div class="row">
+            <div class="col">
+                <div class="container mt-5">
+                    <p class="sub-title">SERVICES</p>
+                    <div class="dashline"></div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="services-content mt-5">
+                                <div id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="card">
+                                        <div class="card-header" role="tab" id="headingOne">
+                                            <h5 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    SURVING
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="card-block mt-4 mr-4 mb-4 ml-3">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p class="icons"><img src="assets/icons/map.svg" alt="" width="72" height="72"></p>
+                                                            <p class="mt-5">We made software application (software made available without license fees for usage but that requires fees for maintenance and support).</p>
+                                                            <p>A generic data collection tool that allows you to collect and submit geo tagged data forms (along with photos) to a central project website (hosted using Google App Engine) from suitable mobile phones (Android or iPhone) and Laptop.</p>
+                                                            <p>For example, questionnaires, audit inspections, technical site survey form etc. all data synchronized (i.e. a copy sent from laptop) and pictures from multiple smart phones can then be viewed / charted / filtered at the project website using Google Maps / Earth or downloaded survey results in the form of PDF or CSV.</p>
+                                                        </div>
+                                                        <div class="col">
+                                                            <p>Furthermore, data can be requested and viewed/filtered from the project website directly on your smart phone.</p>
+                                                            <p>Geo tagging Survey integrates media collection into its forms, allowing you or your employees to capture photographs, barcodes and more using the camera built in to your mobile device.</p>
+                                                            <p>Because the images are automatically attached to the survey, there’s no confusion when it comes to linking up your media and your inspection form data.</p>
+                                                            <p class="icons mt-5"><img src="assets/icons/geo-alt.svg" alt="" width="72" height="72"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" role="tab" id="headingTwo">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    MPCOLLA
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="card-block mt-4 mr-4 mb-4 ml-3">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p>You can manage Project Survey in a huge coverage area simultaneously because all roll out status could be synchronized and presented into MPColla server.</p>
+                                                            <p class="icons mt-3"><img src="assets/icons/globe.svg" alt="" width="72" height="72"></p>
+                                                        </div>
+                                                        <div class="col">
+                                                            <p></p>MPColla is a web server that keep your team on the same page, keep your project on schedule with task delegation and manage task time to your team. At the same time, Survey Project tracking will be presented in Chat group, summary, charts or graphics for its respected status. Those two combination tools resided on two different server will bring team collaboration – efficiently work together with your team to deliver top notch results.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" role="tab" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    IMS
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="card-block mt-4 mr-4 mb-4 ml-3">
+                                                <p class="icons"><img src="assets/icons/lightning.svg" alt="" width="72" height="72"></p>
+                                                An integrated system monitoring supporting the day to day monitoring management of distribution utility system whose SNMP Web adapter is used as communication module in rectifier Power system, UPS system, generators, Precision Air conditioning (PACs), Automatic Transfer Switch / ATS and Transformer of Power Grid in the telecommunication compound facilities for maintenance efforts. IMS proactively guides operators when the system is needed most.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row  mt-5 footer">
+        <div class="col ml-5 mt-5 col-md-9">
+            <h5>Dev Inc</h5>
+            <p>Our speciality in content management, big data analysis and tools for anykind of purpose.</p>
+        </div>
+        <div class="col ml-5 mt-5 col-lg-2">
+            <h5>Socials</h5>
+            <p><a href="#!">Facebook</a></p>
+            <p><a href="#!">Instagram</a></p>
+            <p><a href="#!">Twitter</a></p>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="col mb-2 mt-3 col-md-10 title">
+            &copy 2020
+        </div>
+        <div class="col ml-auto mt-3 col-lg-1">
+            <a href="">Go to Top <img src="gradebook/img/up.png"></a>
+        </div>
+    </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
