@@ -229,29 +229,24 @@
     </div>
 
     <!-- Footer -->
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col col-lg-8" style{background-color:black;}>
-                <h5>Dev's</h5>
-                <p>Our speciality in content management, big data analysis and tools for anykind of purpose.</p>
-
-            </div>
-            <div class="col col-lg-2">
-                <h5>Socials</h5>
-                <ul>
-                    <li><a href="#!">Facebook</a></li>
-                    <li><a href="#!">Instagram</a></li>
-                    <li><a href="#!">Twitter</a></li>
-                </ul>
-            </div>
+    <div class="row  mt-5 footer">
+        <div class="col ml-5 mt-5 col-lg-9">
+            <h5>Dev Inc</h5>
+            <p>Our speciality in content management, big data analysis and tools for anykind of purpose.</p>
         </div>
-        <div class="row">
-            <div class="col col-md-10">
-                <p>YSr &copy 2020</p>
-            </div>
-            <div class="col col-md-2">
-                <a href="">Go to Top</a>
-            </div>
+        <div class="col ml-5 mt-5 col-lg-2">
+            <h5>Socials</h5>
+            <p><a href="#!">Facebook</a></p>
+            <p><a href="#!">Instagram</a></p>
+            <p><a href="#!">Twitter</a></p>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="col mb-2 mt-3 col-lg-10 title">
+            &copy 2020
+        </div>
+        <div class="col ml-auto mt-3 col-lg-1">
+            <a href="">Go to Top <img src="gradebook/img/up.png"></a>
         </div>
     </div>
 
